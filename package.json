@@ -1,0 +1,39 @@
+{
+	"name": "poxtxml-placeholder",
+	"version": "0.1.0",
+	"description": "Postxml plugin for image's placeholder shortcut.",
+	"main": "index.js",
+	"dependencies": {
+		"postxml": "^0.0.5"
+	},
+	"devDependencies": {
+		"chai": "^3.2.0",
+		"gulp": "^3.9.0",
+		"gulp-eslint": "^1.0.0",
+		"gulp-mocha": "^2.1.3"
+	},
+	"scripts": {
+		"test": "mocha",
+		"lint": "jshint . && jscs ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/postxml/poxtxml-placeholder.git"
+	},
+	"keywords": [
+		"html",
+		"plugin",
+		"postxml",
+		"transform",
+		"shortcut"
+	],
+	"author": {
+		"name": "alanev",
+		"email": "e@alanev.ru"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/postxml/poxtxml-placeholder/issues"
+	},
+	"homepage": "https://github.com/postxml/poxtxml-placeholder#readme"
+}

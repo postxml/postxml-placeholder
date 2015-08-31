@@ -1,5 +1,5 @@
 {
-	"name": "poxtxml-placeholder",
+	"name": "postxml-placeholder",
 	"version": "0.1.0",
 	"description": "Postxml plugin for image's placeholder shortcut.",
 	"main": "index.js",
@@ -18,7 +18,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/postxml/poxtxml-placeholder.git"
+		"url": "git+https://github.com/postxml/postxml-placeholder.git"
 	},
 	"keywords": [
 		"html",
@@ -33,7 +33,7 @@
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/postxml/poxtxml-placeholder/issues"
+		"url": "https://github.com/postxml/postxml-placeholder/issues"
 	},
-	"homepage": "https://github.com/postxml/poxtxml-placeholder#readme"
+	"homepage": "https://github.com/postxml/postxml-placeholder#readme"
 }

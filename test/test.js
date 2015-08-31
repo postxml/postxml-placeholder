@@ -9,7 +9,7 @@ var test = function (input, output, opts) {
     expect(proccessed).to.eql(output);
 };
 
-describe('poxtxml-placeholder', function () {
+describe('postxml-placeholder', function () {
     it('placehold', function () {
         test(
             '<img src=":600x400/000/fff.jpg&text=выыва">',

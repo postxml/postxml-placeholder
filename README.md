@@ -1,16 +1,16 @@
-# poxtxml-placeholder
+# postxml-placeholder
 [![npm version][npm-image]][npm-url]
 
 > [PostXML] plugin for image's placeholder shortcut.
 
 ## Installation
-`npm i poxtxml-placeholder --save-dev`
+`npm i postxml-placeholder --save-dev`
 
 ## Usage
 ```js
 var fs = require('fs'),
    postxml = require('postxml'),
-   plugin = require('poxtxml-placeholder');
+   plugin = require('postxml-placeholder');
 
 var html = fs.readFileSync('input.html', 'utf8');
 
@@ -49,5 +49,5 @@ MIT
 
 [PostXML]: https://github.com/postxml/postxml
 
-[npm-url]: https://www.npmjs.org/package/poxtxml-placeholder
-[npm-image]: http://img.shields.io/npm/v/poxtxml-placeholder.svg?style=flat-square
+[npm-url]: https://www.npmjs.org/package/postxml-placeholder
+[npm-image]: http://img.shields.io/npm/v/postxml-placeholder.svg?style=flat-square

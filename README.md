@@ -6,21 +6,7 @@
 ## Installation
 `npm i postxml-placeholder --save-dev`
 
-## Usage
-```js
-var fs = require('fs'),
-   postxml = require('postxml'),
-   plugin = require('postxml-placeholder');
-
-var html = fs.readFileSync('input.html', 'utf8');
-
-var output = postxml(
-      html,
-      [
-         plugin()
-      ]
-   );
-```
+## [Usage]
 
 ## Example
 
@@ -48,6 +34,7 @@ Default: `:`
 MIT
 
 [PostXML]: https://github.com/postxml/postxml
+[Usage]: https://github.com/postxml/postxml#usage
 
 [npm-url]: https://www.npmjs.org/package/postxml-placeholder
 [npm-image]: http://img.shields.io/npm/v/postxml-placeholder.svg?style=flat-square

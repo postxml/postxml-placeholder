@@ -1,7 +1,7 @@
 # postxml-placeholder
 [![npm version][npm-image]][npm-url]
 
-> [PostXML] plugin for image's placeholder shortcut.
+> [PostXML] plugin for image's placeholder shortcut (with width and height).
 
 ## Installation
 `npm i postxml-placeholder --save-dev`
@@ -17,7 +17,7 @@
 
 ### Output
 ```html
-<img src="http://dummyimage.com/600x400/000/fff.jpg&text=выыва">
+<img src="http://dummyimage.com/600x400/000/fff.jpg&text=выыва" width="600" height="400">
 ```
 
 ## options

@@ -11,7 +11,13 @@ module.exports = function (opts) {
         $('img[src^="' + opts.prefix + '"][src*="x"]').each(function () {
             var image = {};
             image.src = $(this).attr('src').replace(opts.prefix, '');
-            $(this).attr('src', opts.url + image.src);
+            image.width = image.src.match(/\d{1,}x/g)[0].replace('x','');
+            image.height = image.src.match(/x\d{1,}[^\D]/g)[0].replace('x','')
+            $(this).attr({
+                'src': opts.url + image.src,
+                'width': image.width,
+                'height': image.height
+            });
         });
     };
 };
